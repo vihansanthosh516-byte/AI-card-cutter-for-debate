@@ -9,35 +9,9 @@ export default function App() {
 
   // Input & Result State
   const [inputs, setInputs] = useState({
-    tagline: 'DATA CENTER ELECTRICITY DEMAND IS EXPLODING AND WILL NEARLY TRIPLE BY 2030',
-    url: 'https://www.goldmansachs.com/insights/articles/us-data-center-power-demand-projected-to-double-by-2027',
-    evidence: `US data center power demand is forecast to more than double to 66 GW in 2027 from 31 GW in 2025, driven by an accelerating buildout of AI infrastructure, according to Goldman Sachs Commodities Research.
-Only about 50-60% of data center capacity scheduled for the next one to two years is expected to come online on time amid delays and cancellations.
-Regional impacts will diverge sharply, with Mid-Atlantic, Mid-Continent, and Northwest markets facing elevated reliability risks, while the impact in Texas and Georgia may be relatively marginal thanks to plans for additional power generation.
-Data centers' share of total US peak summer power demand is projected to jump to 8.5% in 2027 from 4.1% in 2025, creating significant tightening across the national power market.
-A wave of new data center construction, fueled by surging demand for artificial intelligence (AI) computing, is on track to more than double the power used by US data centers within two years, according to Goldman Sachs Research.
-What is the forecast for data center power demand?
- 
-US data center power demand is expected to climb from 31 gigawatts (GW) in 2025 to 41 GW in 2026 and 66 GW the year after, write Hongcen Wei, Daan Struyven, and Samantha Dart from the commodities team in Goldman Sachs Research. This demand forecast is based on the estimate that US data center capacity will increase to roughly 95 GW by the end of 2027, more than doubling the level at the end of 2025, and a capacity utilization rate assumption of 70%.
-The acceleration is substantial. Year-over-year capacity additions are scheduled to reach 13.6 GW in 2026 and 36.3 GW in 2027, compared with realized additions of 6.4 GW in 2024 and 8.5 GW in 2025, according to Goldman Sachs Research. The forecasts draw on data center development schedules from Aterio. The Aterio data on data center activations uses granular facility-level data covering locations, permitting progress, construction status from official announcements, and satellite imagery.
-How much is the data center industry projected to grow?
- 
-Not all of those ambitious construction schedules will translate into working facilities. Historically, only about 72% of data centers scheduled for activation within the following four quarters actually went online on time. The further out a project is scheduled for activation, the less likely it is to be completed as planned, according to Goldman Sachs Research.
- 
-Several factors explain the gap between plans and reality. Data center developers frequently submit applications across multiple regions simultaneously, proceeding only with the most favorable site, Wei, Struyven, and Dart write. Supply chain and labor shortages remain the most common causes of delay. And the typical data center takes 18 to 24 months to build once permits are secured.
-After adjusting for these risks, Wei, Struyven, and Dart forecast approximately 60% of capacity scheduled for the next year will materialize on time, dropping to roughly 50% in the next two years. Even with those conservative adjustments, the projected additions remain significant: 11.5 GW in the final three quarters of 2026 alone, following 2.2 GW realized in the first quarter.
-Which US markets have the biggest increases in power demand?
- 
-There are sharp regional differences in Goldman Sachs Research’s outlook for power demand. In 2027, the average annual data center additions in each of the Mid-Atlantic, Texas, and Mid-Continent power markets are individually scheduled to exceed the entire nation's total additions in 2025.
-But the consequences vary. Power reliability risks are elevated in the Mid-Atlantic, Mid-Continent, and Northwest markets because their planned generation capacity additions are limited relative to the flood of incoming data center demand, the team's analysis shows. These regions may ultimately have to turn some future data centers away.
-Texas and Georgia, by contrast, are expected to see only marginal tightening. Both regions have significant new power generation capacity in the pipeline, which should help absorb the additional load. Meanwhile, markets like Tennessee, New England, and Florida are likely to see constrained data center additions since the market is already critically tight.
-Where are data centers being built?
- 
-Power availability and time-to-client are the primary factors driving where data centers choose to locate, Goldman Sachs Research notes.
-The share of US data centers in total peak summer power demand is projected to rise from 4.1% in 2025 to 5.3% in 2026 and 8.5% the following year, according to Goldman Sachs Research. That incremental tightening will have consequences for electricity prices and grid stability across the country.
-Wei, Struyven, and Dart caution that the outlook carries meaningful uncertainty in both directions. On the downside, delays and cancellations could reduce the amount of activated capacity below current projections. On the upside, new projects not yet in the pipeline could push actual additions even higher than scheduled, particularly in later years. Elevated capital spending could also compress construction timelines to as little as one year, accelerating the buildout beyond historical patterns.
- 
-This article is being provided for educational purposes only. The information contained in this article does not constitute a recommendation from any Goldman Sachs entity to the recipient, and Goldman Sachs is not providing any financial, economic, legal, investment, accounting, or tax advice through this article or to its recipient. Neither Goldman Sachs nor any of its affiliates makes any representation or warranty, express or implied, as to the accuracy or completeness of the statements or any information contained in this article and any liability therefore (including in respect of direct, indirect, or consequential loss or damage) is expressly disclaimed.`
+    tagline: '',
+    url: '',
+    evidence: ''
   });
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
