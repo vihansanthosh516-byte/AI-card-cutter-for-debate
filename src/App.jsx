@@ -81,7 +81,7 @@ This article is being provided for educational purposes only. The information co
     setResult(null);
 
     try {
-      const response = await fetch('http://localhost:5000/api/cut-card', {
+      const response = await fetch('/api/cut-card', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
