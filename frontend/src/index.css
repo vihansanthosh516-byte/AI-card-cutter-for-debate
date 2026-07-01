@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+/* Card Cut Rendering Framework */
+
+.card-render-engine {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.75;
+  color: #94a3b8; /* Lower contrast for non-highlighted text so cut text stands out */
+  font-size: 1.05rem;
+}
+
+/* Shrink text for unread evidence */
+.card-render-engine small {
+  font-size: 0.75rem;
+  color: #cbd5e1; /* Even lighter color for shrunken text */
+  line-height: 1.2;
+}
+
+/* Underline configuration */
+.card-render-engine u {
+  text-decoration: underline !important;
+  text-decoration-thickness: 1.5px !important;
+  text-underline-offset: 3px;
+  font-weight: 600;
+  color: #0f172a; /* High contrast for underlined text */
+}
+
+/* Cyan Highlight System (Word document block compatible) */
+.card-render-engine.cyan mark {
+  background-color: #00ffff !important; /* Cyan */
+  color: #000000 !important;
+  padding: 0px 2px;
+  font-weight: 700;
+}
+
+/* Blue Highlight System (Word document block compatible) */
+.card-render-engine.blue mark {
+  background-color: #38bdf8 !important; /* Sky-400 */
+  color: #000000 !important;
+  padding: 0px 2px;
+  font-weight: 700;
+}
+
+/* Yellow Highlight System (Word document block compatible) */
+.card-render-engine.yellow mark {
+  background-color: #fbbf24 !important; /* Amber-400 */
+  color: #000000 !important;
+  padding: 0px 2px;
+  font-weight: 700;
+}
+
+/* Card citation styling */
+.card-citation-line {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  color: #4f46e5; /* Indigo 600 */
+  margin-bottom: 0.75rem;
+}
+
+/* Custom Scrollbar Styles for modern dashboard */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Subtle pulse animation for loading states */
+@keyframes pulse-ring {
+  0% { transform: scale(0.95); opacity: 0.5; }
+  50% { transform: scale(1.05); opacity: 0.8; }
+  100% { transform: scale(0.95); opacity: 0.5; }
+}
+
+.pulse-button-ring {
+  animation: pulse-ring 2s infinite ease-in-out;
+}
