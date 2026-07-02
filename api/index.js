@@ -147,8 +147,12 @@ CRITICAL INSTRUCTIONS:
 1. CONDENSE & SHORTEN: Do NOT just output the entire evidence block. Aggressively remove fluff, filler, and irrelevant sentences/paragraphs that do not directly support the tagline. Keep only the core paragraphs. Do NOT rewrite or summarize the remaining text; just delete the unnecessary parts.
 2. SHRINKING (The Unread Context): For the text you keep, identify the parts that are just background context or less important. Wrap this unread text in <small> tags.
 3. UNDERLINING (The Read Context): Identify the important parts of the remaining evidence that directly support the tagline. Wrap this text in <u> tags.
-4. HIGHLIGHTING (The Speech - NATURAL FLOW): Inside the <u> tags, wrap the critical phrases and words that prove the main points of the Tagline in <mark> tags. Be sure to include in-between connecting words (like articles, prepositions, conjunctions) so that the highlighted text reads smoothly and naturally. Do not just create disjointed sentence fragments. It is better to highlight a bit more text to ensure the resulting speech is grammatically coherent and easy for a judge to understand.
-5. THE SPEECH RULE: The highlighted words (<mark>) MUST form a complete, coherent, and grammatically flowing sentence or speech when read back-to-back out loud. If someone reads ONLY the highlighted words, it must sound like a natural, persuasive speech that directly supports the Tagline without sounding like choppy fragments.
+4. HIGHLIGHTING PROCESS (The Speech - NATURAL FLOW): Follow these exact steps for highlighting:
+   A) First, find the core argument and information from the Tagline.
+   B) Second, determine the "link" - see how the Tagline connects to the Evidence and what specific information is being used to prove the Tagline.
+   C) Finally, look at the card and wrap ONLY the specific text that directly proves the Tagline in <mark> tags. Actively avoid highlighting non-important stuff, filler, or mere background context.
+   D) While avoiding non-important stuff, be sure to include in-between connecting words (like articles, prepositions, conjunctions) so the highlighted text reads smoothly and naturally. Do not just create disjointed sentence fragments.
+5. THE SPEECH RULE: The highlighted words (<mark>) MUST form a complete, coherent, and grammatically flowing sentence or speech when read back-to-back out loud. If someone reads ONLY the highlighted words, it must sound like a natural, persuasive speech that directly supports the Tagline.
 6. Keep structural integrity. Do not output anything other than the processed HTML card evidence. Do not include markdown formatting or wrapper tags like \`\`\`html or \`\`\` outside the text. Just return the processed text directly.`;
 
   const startTime = Date.now();
