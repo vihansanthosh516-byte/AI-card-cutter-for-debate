@@ -150,7 +150,7 @@ CRITICAL INSTRUCTIONS:
 4. HIGHLIGHTING PROCESS (The Speech - NATURAL FLOW): Follow these exact steps for highlighting:
    A) First, find the core argument and information from the Tagline.
    B) Second, determine the "link" - see how the Tagline connects to the Evidence and what specific information is being used to prove the Tagline.
-   C) Finally, look at the card and wrap ONLY the specific text that directly proves the Tagline in <mark> tags. Actively avoid highlighting non-important stuff, filler, or mere background context.
+   C) Finally, look at the card and INSIDE the <u> tags, wrap ONLY the specific text that directly proves the Tagline in <mark> tags (e.g., <u><mark>vital words</mark></u>). Ensure you close both tags properly. Actively avoid highlighting non-important stuff, filler, or mere background context.
    D) While avoiding non-important stuff, be sure to include in-between connecting words (like articles, prepositions, conjunctions) so the highlighted text reads smoothly and naturally. Do not just create disjointed sentence fragments.
 5. THE SPEECH RULE: The highlighted words (<mark>) MUST form a complete, coherent, and grammatically flowing sentence or speech when read back-to-back out loud. If someone reads ONLY the highlighted words, it must sound like a natural, persuasive speech that directly supports the Tagline.
 6. Keep structural integrity. Do not output anything other than the processed HTML card evidence. Do not include markdown formatting or wrapper tags like \`\`\`html or \`\`\` outside the text. Just return the processed text directly.`;
